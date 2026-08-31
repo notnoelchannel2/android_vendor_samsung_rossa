@@ -141,10 +141,10 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/rossa/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
     vendor/samsung/rossa/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
     vendor/samsung/rossa/proprietary/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
-    vendor/samsung/rossa/proprietary/etc/firmware/a300_pm4.fw:system/etc/firmware/a300_pm4.fw
+    vendor/samsung/rossa/proprietary/etc/firmware/a300_pm4.fw:system/etc/firmware/a300_pm4.fw \
     vendor/samsung/rossa/proprietary/etc/firmware/a330_pfp.fw:system/etc/firmware/a300_pfp.fw \
     vendor/samsung/rossa/proprietary/etc/firmware/a330_pm4.fw:system/etc/firmware/a300_pm4.fw \
-	vendor/samsung/rossa/proprietary/etc/firmware/a420_pfp.fw:system/etc/firmware/a420_pfp.fw \
+    vendor/samsung/rossa/proprietary/etc/firmware/a420_pfp.fw:system/etc/firmware/a420_pfp.fw \
     vendor/samsung/rossa/proprietary/etc/firmware/a420_pm4.fw:system/etc/firmware/a420_pm4.fw \
     vendor/samsung/rossa/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
     vendor/samsung/rossa/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
@@ -201,9 +201,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/rossa/proprietary/etc/plmn_se13.bin:system/etc/plmn_se13.bin \
     vendor/samsung/rossa/proprietary/etc/plmn_delta.bin:system/etc/plmn_delta.bin \
     vendor/samsung/rossa/proprietary/bin/thermal-engine:system/bin/thermal-engine \
-	vendor/samsung/rossa/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
-	vendor/samsung/rossa/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
-	vendor/samsung/rossa/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
+    vendor/samsung/rossa/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
+    vendor/samsung/rossa/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
+    vendor/samsung/rossa/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
     vendor/samsung/rossa/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/samsung/rossa/proprietary/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so \
     vendor/samsung/rossa/proprietary/bin/time_daemon:system/bin/time_daemon \
