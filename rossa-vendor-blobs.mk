@@ -84,7 +84,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/rossa/proprietary/lib/libexifa.so:system/lib/libexifa.so \
     vendor/samsung/rossa/proprietary/vendor/lib/libchromatix_sr544_common.so:system/vendor/lib/libchromatix_sr544_common.so \
     vendor/samsung/rossa/proprietary/vendor/lib/libchromatix_sr544_default_video.so:system/vendor/lib/libchromatix_sr544_default_video.so \
-    vendor/samsung/rossa/proprietary/vendor/lib/libchromatix_sr544_liveshot.so:system/vendor/lib/libchromatix_sr544_liveshot.so \
     vendor/samsung/rossa/proprietary/vendor/lib/libchromatix_sr544_panorama.so:system/vendor/lib/libchromatix_sr544_panorama.so \
     vendor/samsung/rossa/proprietary/vendor/lib/libchromatix_sr544_preview.so:system/vendor/lib/libchromatix_sr544_preview.so \
     vendor/samsung/rossa/proprietary/vendor/lib/libchromatix_sr544_snapshot.so:system/vendor/lib/libchromatix_sr544_snapshot.so \
