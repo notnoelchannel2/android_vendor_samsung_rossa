@@ -82,14 +82,13 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/rossa/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/samsung/rossa/proprietary/lib/libjpega.so:system/lib/libjpega.so \
     vendor/samsung/rossa/proprietary/lib/libexifa.so:system/lib/libexifa.so \
-    vendor/samsung/rossa/proprietary/vendor/lib/libchromatix_sr544_common.so:system/vendor/lib/libchromatix_imx219_common.so \
-    vendor/samsung/rossa/proprietary/vendor/lib/libchromatix_sr544_common_res0.so:system/vendor/lib/libchromatix_imx219_common_res0.so \
-    vendor/samsung/rossa/proprietary/vendor/lib/libchromatix_sr544_default_video.so:system/vendor/lib/libchromatix_imx219_default_video.so \
-    vendor/samsung/rossa/proprietary/vendor/lib/libchromatix_sr544_liveshot.so:system/vendor/lib/libchromatix_imx219_liveshot.so \
-    vendor/samsung/rossa/proprietary/vendor/lib/libchromatix_sr544_panorama.so:system/vendor/lib/libchromatix_imx219_panorama.so \
-    vendor/samsung/rossa/proprietary/vendor/lib/libchromatix_sr544_preview.so:system/vendor/lib/libchromatix_imx219_preview.so \
-    vendor/samsung/rossa/proprietary/vendor/lib/libchromatix_sr544_snapshot.so:system/vendor/lib/libchromatix_imx219_snapshot.so \
-    vendor/samsung/rossa/proprietary/vendor/lib/libchromatix_sr544_zslshot.so:system/vendor/lib/libchromatix_imx219_zslshot.so \
+    vendor/samsung/rossa/proprietary/vendor/lib/libchromatix_sr544_common.so:system/vendor/lib/libchromatix_sr544_common.so \
+    vendor/samsung/rossa/proprietary/vendor/lib/libchromatix_sr544_default_video.so:system/vendor/lib/libchromatix_sr544_default_video.so \
+    vendor/samsung/rossa/proprietary/vendor/lib/libchromatix_sr544_liveshot.so:system/vendor/lib/libchromatix_sr544_liveshot.so \
+    vendor/samsung/rossa/proprietary/vendor/lib/libchromatix_sr544_panorama.so:system/vendor/lib/libchromatix_sr544_panorama.so \
+    vendor/samsung/rossa/proprietary/vendor/lib/libchromatix_sr544_preview.so:system/vendor/lib/libchromatix_sr544_preview.so \
+    vendor/samsung/rossa/proprietary/vendor/lib/libchromatix_sr544_snapshot.so:system/vendor/lib/libchromatix_sr544_snapshot.so \
+    vendor/samsung/rossa/proprietary/vendor/lib/libchromatix_sr544_zslshot.so:system/vendor/lib/libchromatix_sr544_zslshot.so \
     vendor/samsung/rossa/proprietary/lib/libAl_Awb.so:system/lib/libAl_Awb.so \
     vendor/samsung/rossa/proprietary/lib/libAl_Awb_Sp.so:system/lib/libAl_Awb_Sp.so \
     vendor/samsung/rossa/proprietary/lib/libaf_algo_rear.so:system/lib/libaf_algo_rear.so \
