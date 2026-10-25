@@ -107,6 +107,19 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/vendor/lib/libmdmdetect.so:system/vendor/lib/libmdmdetect.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libmmosal.so:system/vendor/lib/libmmosal.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libcneconn.so:system/vendor/lib/libcneconn.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/liblistensoundmodel2.so:system/vendor/lib/liblistensoundmodel2.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libmmhttpstack.so:system/vendor/lib/libmmhttpstack.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libmmiipstreammmihttp.so:system/vendor/lib/libmmiipstreammmihttp.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libmmipstreamaal.so:system/vendor/lib/libmmipstreamaal.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libmmipstreamnetwork.so:system/vendor/lib/libmmipstreamnetwork.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libmmipstreamsourcehttp.so:system/vendor/lib/libmmipstreamsourcehttp.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libmmipstreamutils.so:system/vendor/lib/libmmipstreamutils.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libmmQSM.so:system/vendor/lib/libmmQSM.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libmmQTA.so:system/vendor/lib/libmmQTA.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libmmrtpdecoder.so:system/vendor/lib/libmmrtpdecoder.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libSubSystemShutdown.so:system/vendor/lib/libSubSystemShutdown.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libsubsystem_control.so:system/vendor/lib/libsubsystem_control.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libmm-abl.so:system/vendor/lib/libmm-abl.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libSHIMDivxDrm.so:system/vendor/lib/libSHIMDivxDrm.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libDivxDrm.so:system/vendor/lib/libDivxDrm.so \
@@ -152,6 +165,11 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
     $(LOCAL_PATH)/proprietary/bin/thermal-engine:system/bin/thermal-engine \
     $(LOCAL_PATH)/proprietary/bin/qmiproxy:system/bin/qmiproxy \
+    $(LOCAL_PATH)/proprietary/bin/diag_mdlog:system/bin/diag_mdlog \
+    $(LOCAL_PATH)/proprietary/bin/diag_uart_log:system/bin/diag_uart_log \
+    $(LOCAL_PATH)/proprietary/bin/ftm_ptt:system/bin/ftm_ptt \
+    $(LOCAL_PATH)/proprietary/bin/ptt_socket_app:system/bin/ptt_socket_app \
+    $(LOCAL_PATH)/proprietary/bin/wlandutservice:system/bin/wlandutservice \
     $(LOCAL_PATH)/proprietary/app/TimeService.apk:system/app/TimeService.apk \
     $(LOCAL_PATH)/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
     $(LOCAL_PATH)/proprietary/lib/libcordon.so:system/lib/libcordon.so \
@@ -166,4 +184,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/lib/libcommon_time_client.so:system/lib/libcommon_time_client.so \
     $(LOCAL_PATH)/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
     $(LOCAL_PATH)/proprietary/lib/libomission_avoidance.so:system/lib/libomission_avoidance.so \
+    $(LOCAL_PATH)/proprietary/lib/libatparser.so:system/lib/libatparser.so \
+    $(LOCAL_PATH)/proprietary/lib/libcnefeatureconfig.so:system/lib/libcnefeatureconfig.so \
+    $(LOCAL_PATH)/proprietary/lib/libdashplayer.so:system/lib/libdashplayer.so \
+    $(LOCAL_PATH)/proprietary/lib/libtinyxml.so:system/lib/libtinyxml.so \
     $(LOCAL_PATH)/proprietary/lib/hw/sensors.msm8916.so:system/lib/hw/sensors.msm8916.so
