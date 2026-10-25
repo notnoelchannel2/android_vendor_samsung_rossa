@@ -1,4 +1,4 @@
-LOCAL_PATH := vendor/samsung/heatqlte
+LOCAL_PATH := vendor/samsung/rossa
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/etc/plmn_se13.bin:system/etc/plmn_se13.bin \
