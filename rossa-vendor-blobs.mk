@@ -252,14 +252,18 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so \
     $(LOCAL_PATH)/proprietary/lib/hw/camera.vendor.msm8916.so:system/lib/hw/camera.vendor.msm8916.so
 
-# libmmcamera_imglib.so is needed by libmmcamera2_imglib_modules.so (mm-qcamera-daemon)
-# but is not in this tree. Copy it from stock /system/vendor/lib to
-# proprietary/vendor/lib/ and it will be picked up automatically.
-ifneq ($(wildcard $(LOCAL_PATH)/proprietary/vendor/lib/libmmcamera_imglib.so),)
+# libmmcamera_imglib.so and the mm-camera2 core modules come from
+# kn06497/android_vendor_samsung_coreprimelte (cm-12.1), the only G360F tree
+# that ships imglib, so the image-processing stack matches.
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/vendor/lib/libmmcamera_imglib.so:system/vendor/lib/libmmcamera_imglib.so
-endif
 
 # Keystore (QSEE keymaster, firmware linked from /firmware by the device tree)
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/lib/hw/keystore.msm8916.so:system/lib/hw/keystore.msm8916.so
+
+# Widevine classic (from NXTnet coreprimelte-common; the L3 libraries it
+# needs are already shipped and identical)
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/proprietary/lib/libwvm.so:system/vendor/lib/libwvm.so \
+    $(LOCAL_PATH)/proprietary/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so
