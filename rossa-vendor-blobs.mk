@@ -160,6 +160,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/bin/btnvtool:system/bin/btnvtool \
     $(LOCAL_PATH)/proprietary/bin/adsprpcd:system/bin/adsprpcd \
     $(LOCAL_PATH)/proprietary/bin/mpdecision:system/bin/mpdecision \
+    $(LOCAL_PATH)/proprietary/bin/at_distributor:system/bin/at_distributor \
     $(LOCAL_PATH)/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     $(LOCAL_PATH)/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
     $(LOCAL_PATH)/proprietary/bin/rild:system/bin/rild \
