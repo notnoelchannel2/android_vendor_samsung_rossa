@@ -174,7 +174,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/lib/libcordon.so:system/lib/libcordon.so \
     $(LOCAL_PATH)/proprietary/lib/libfactoryutil.so:system/lib/libfactoryutil.so \
     $(LOCAL_PATH)/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
-    $(LOCAL_PATH)/proprietary/lib/libtinyxml2.so:system/lib/libtinyxml2.so \
     $(LOCAL_PATH)/proprietary/lib/librmnetctl.so:system/lib/librmnetctl.so \
     $(LOCAL_PATH)/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
     $(LOCAL_PATH)/proprietary/lib/libril.so:system/lib/libril.so \
