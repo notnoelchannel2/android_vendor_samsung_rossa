@@ -268,3 +268,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/lib/libwvm.so:system/vendor/lib/libwvm.so \
     $(LOCAL_PATH)/proprietary/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so
+
+# NFC (Samsung N5 HAL, from NXTnet coreprimelte-common, SM-G360F)
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/proprietary/lib/hw/nfc_nci.msm8916.so:system/lib/hw/nfc_nci.msm8916.so \
+    $(LOCAL_PATH)/proprietary/etc/firmware/nfc_test.bin:system/etc/firmware/nfc_test.bin
